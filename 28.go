@@ -1,20 +1,20 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 type Vertex struct {
-    X, Y int
+	X, Y int
 }
 
 var (
-    p   = Vertex{1, 2}
-    q   = &Vertex{1, 2}
-    r   = Vertex{X: 1}
-    s   = Vertex{}
+	p   = Vertex{1, 2}
+	q   = &Vertex{1, 2}
+	r   = Vertex{X: 1}
+	s   = Vertex{}
 )
 
 func main() {
-    fmt.Println(p, q, r, s)
+	fmt.Println(p, q, r, s)
 }
